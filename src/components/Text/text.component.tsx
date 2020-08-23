@@ -2,8 +2,18 @@ import React from 'react'
 import * as S from './text.styles'
 
 export interface ITextProps {
+    /**
+     * The content of text. 
+     * *Only strings
+     */
     children: string
+    /**
+     * Set the texts size
+     */
     size?: S.SizeType
+    /**
+     * Set the texts color
+     */
     color?: string
 }
 
